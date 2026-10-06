@@ -178,10 +178,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp Q  &kp W             &kp E       &kp R            &kp T            &kp Y                 &kp U            &kp I       &kp O       &kp P
-        &kp A  &HRMControlL 0 0  &mt LALT D  &mt LSHFT T      &kp G            &kp H                 &mt RIGHT_GUI J  &mt RALT K  &mt RALT L  &mt RGUI SEMICOLON
-&trans  &kp Z  &kp X             &kp C       &kp V            &kp B            &kp N                 &kp M            &kp COMMA   &kp DOT     &kp FSLH            &trans
-                                 &mo 3       &lt 1 BACKSPACE  &mt LCTRL TAB    &mt LEFT_SHIFT ENTER  &kp BSPC         &mo 3
+        &kp Q  &kp W                 &kp E               &kp R                 &kp T            &kp Y                 &kp U                     &kp I               &kp O                &kp P
+        &kp A  &HRMControlL LCTRL S  &HRMOptionL LALT D  &HRMCommandL LSHFT T  &kp G            &kp H                 &HRMCommandR RIGHT_GUI J  &HRMOptionR RALT K  &HRMControlR RALT L  &mt RGUI SEMICOLON
+&trans  &kp Z  &kp X                 &kp C               &kp V                 &kp B            &kp N                 &kp M                     &kp COMMA           &kp DOT              &kp FSLH            &trans
+                                     &mo 3               &lt 1 BACKSPACE       &mt LCTRL TAB    &mt LEFT_SHIFT ENTER  &kp BSPC                  &mo 3
             >;
         };
 
