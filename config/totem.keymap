@@ -46,7 +46,7 @@
         HRMAltL: HRMAltL {
             compatible = "zmk,behavior-hold-tap";
             label = "HRMALTL";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
@@ -60,7 +60,7 @@
         HRMControlL: HRMControlL {
             compatible = "zmk,behavior-hold-tap";
             label = "HRMCONTROLL";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
@@ -74,7 +74,7 @@
         HRMOptionL: HRMOptionL {
             compatible = "zmk,behavior-hold-tap";
             label = "HRMOPTIONL";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
@@ -88,7 +88,7 @@
         HRMCommandL: HRMCommandL {
             compatible = "zmk,behavior-hold-tap";
             label = "HRMCOMMANDL";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
@@ -102,7 +102,7 @@
         HRMAltR: HRMAltR {
             compatible = "zmk,behavior-hold-tap";
             label = "HRMALTR";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
@@ -116,7 +116,7 @@
         HRMControlR: HRMControlR {
             compatible = "zmk,behavior-hold-tap";
             label = "HRMCONTROLR";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
@@ -130,7 +130,7 @@
         HRMOptionR: HRMOptionR {
             compatible = "zmk,behavior-hold-tap";
             label = "HRMOPTIONR";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
@@ -144,7 +144,7 @@
         HRMCommandR: HRMCommandR {
             compatible = "zmk,behavior-hold-tap";
             label = "HRMCOMMANDR";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
@@ -178,10 +178,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp Q  &kp W        &kp E       &kp R            &kp T            &kp Y                 &kp U            &kp I       &kp O       &kp P
-        &kp A  &mt LCTRL S  &mt LALT D  &mt LSHFT T      &kp G            &kp H                 &mt RIGHT_GUI J  &mt RALT K  &mt RALT L  &mt RGUI SEMICOLON
-&trans  &kp Z  &kp X        &kp C       &kp V            &kp B            &kp N                 &kp M            &kp COMMA   &kp DOT     &kp FSLH            &trans
-                            &mo 3       &lt 1 BACKSPACE  &mt LCTRL TAB    &mt LEFT_SHIFT ENTER  &kp BSPC         &mo 3
+        &kp Q  &kp W             &kp E       &kp R            &kp T            &kp Y                 &kp U            &kp I       &kp O       &kp P
+        &kp A  &HRMControlL 0 0  &mt LALT D  &mt LSHFT T      &kp G            &kp H                 &mt RIGHT_GUI J  &mt RALT K  &mt RALT L  &mt RGUI SEMICOLON
+&trans  &kp Z  &kp X             &kp C       &kp V            &kp B            &kp N                 &kp M            &kp COMMA   &kp DOT     &kp FSLH            &trans
+                                 &mo 3       &lt 1 BACKSPACE  &mt LCTRL TAB    &mt LEFT_SHIFT ENTER  &kp BSPC         &mo 3
             >;
         };
 
