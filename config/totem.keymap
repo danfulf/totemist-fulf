@@ -206,7 +206,7 @@
             bindings = <
         &kp DOUBLE_QUOTES  &kp EXCLAMATION  &kp NUHS   &kp UNDER  &kp LBRC          &kp SQT                   &kp LBKT              &kp RBKT               &kp PLUS   &kp ESC
         &kp AMPS           &kp EQUAL        &kp DLLR   &kp LT     &kp LBKT          &kp NON_US_BACKSLASH      &kp LBRC              &kp RIGHT_BRACE        &kp MINUS  &kp ASTRK
-&trans  &kp LS(NUMBER_3)   &kp LS(NUHS)     &kp GRAVE  &kp QMARK  &kp LPAR          &kp LS(NON_US_BACKSLASH)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRCNT  &kp FSLH   &trans
+&trans  &kp LS(NUMBER_3)   &kp LS(NUHS)     &kp GRAVE  &kp QMARK  &kp LPAR          &kp LS(NON_US_BACKSLASH)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp PRCNT  &trans
                                             &trans     &trans     &kp LEFT_SHIFT    &kp DELETE                &trans                &trans
             >;
         };
