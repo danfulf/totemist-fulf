@@ -67,17 +67,17 @@
             bindings = <
         &kp Q  &kp W        &kp E       &kp R            &kp T            &kp Y                 &kp U            &kp I       &kp O       &kp P
         &kp A  &mt LCTRL S  &mt LALT D  &mt LSHFT T      &kp G            &kp H                 &mt RIGHT_GUI J  &mt RALT K  &mt RALT L  &mt RGUI SEMICOLON
-&trans  &kp Z  &kp X        &kp C       &kp V            &kp B            &kp N                 &kp M            &kp COMMA   &kp PERIOD  &kp FSLH            &trans
+&trans  &kp Z  &kp X        &kp C       &kp V            &kp B            &kp N                 &kp M            &kp COMMA   &kp DOT     &kp FSLH            &trans
                             &mo 3       &lt 1 BACKSPACE  &mt LCTRL TAB    &mt LEFT_SHIFT ENTER  &kp BSPC         &mo 3
             >;
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        nav_layer {
+        character_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "NAVI";
+            label = "Symbol";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
@@ -91,19 +91,19 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp DOUBLE_QUOTES  &kp EXCLAMATION  &kp NUHS   &kp UNDER   &kp LBRC          &kp SQT                   &kp LBKT              &kp RBKT               &kp PLUS   &kp ESC
-        &kp AMPS           &kp EQUAL        &kp DLLR   &kp LT      &kp LBKT          &kp NON_US_BACKSLASH      &kp LBRC              &kp RIGHT_BRACE        &kp MINUS  &kp ASTRK
-&trans  &kp LS(NUMBER_3)   &kp LS(NUHS)     &kp GRAVE  &kp QMARK   &kp LPAR          &kp LS(NON_US_BACKSLASH)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRCNT  &kp FSLH   &trans
-                                            &trans     &kp DELETE  &kp LEFT_SHIFT    &mo ADJ                   &trans                &trans
+        &kp DOUBLE_QUOTES  &kp EXCLAMATION  &kp NUHS   &kp UNDER  &kp LBRC          &kp SQT                   &kp LBKT              &kp RBKT               &kp PLUS   &kp ESC
+        &kp AMPS           &kp EQUAL        &kp DLLR   &kp LT     &kp LBKT          &kp NON_US_BACKSLASH      &kp LBRC              &kp RIGHT_BRACE        &kp MINUS  &kp ASTRK
+&trans  &kp LS(NUMBER_3)   &kp LS(NUHS)     &kp GRAVE  &kp QMARK  &kp LPAR          &kp LS(NON_US_BACKSLASH)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRCNT  &kp FSLH   &trans
+                                            &trans     &trans     &kp LEFT_SHIFT    &kp DELETE                &trans                &trans
             >;
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        sim_layer {
+        numeric_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "SYM";
+            label = "Number + Nav";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
@@ -117,10 +117,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS        &kp RA(U)   &kp SQT     &kp DQT
-        &kp RA(A)    &trans       &kp RA(S)  &trans    &trans       &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
-                                  &trans     &gif      &mo ADJ      &trans        &kp C_PP        &trans
+        &kp EXCL  &kp N7        &kp N8        &kp N9        &trans     &trans  &kp HOME         &kp UP_ARROW    &kp END          &kp PRINTSCREEN
+        &kp DOT   &kp NUMBER_4  &kp N5        &kp N6        &trans     &trans  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_UP
+&trans  &kp N0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans  &kp LC(LS(TAB))  &kp INS         &kp LC(TAB)      &kp PAGE_DOWN    &trans
+                                &trans        &gif          &mo ADJ    &trans  &trans           &trans
             >;
         };
 
