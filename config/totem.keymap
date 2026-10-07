@@ -154,6 +154,17 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 25 32 33 34>;
         };
+
+        LTRepeat: LTRepeat {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LTREPEAT";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     keymap {
@@ -178,10 +189,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp Q  &kp W                 &kp E               &kp R                 &kp T            &kp Y                 &kp U                     &kp I               &kp O                &kp P
-        &kp A  &HRMControlL LCTRL S  &HRMOptionL LALT D  &HRMCommandL LSHFT T  &kp G            &kp H                 &HRMCommandR RIGHT_GUI J  &HRMOptionR RALT K  &HRMControlR RALT L  &mt RGUI SEMICOLON
-&trans  &kp Z  &kp X                 &kp C               &kp V                 &kp B            &kp N                 &kp M                     &kp COMMA           &kp DOT              &kp FSLH            &trans
-                                     &mo 3               &lt 1 BACKSPACE       &mt LCTRL TAB    &mt LEFT_SHIFT ENTER  &lt 2 SPACE               &mo 3
+        &kp Q  &kp W                 &kp E                  &kp R                 &kp T    &kp Y  &kp U                     &kp I               &kp O                &kp P
+        &kp A  &HRMControlL LCTRL S  &HRMOptionL LALT D     &HRMCommandL LSHFT F  &kp G    &kp H  &HRMCommandR RIGHT_GUI J  &HRMOptionR RALT K  &HRMControlR RALT L  &mt RGUI SEMICOLON
+&trans  &kp Z  &kp X                 &kp C                  &kp V                 &kp B    &kp N  &kp M                     &kp COMMA           &kp DOT              &kp FSLH            &trans
+                                     &LTRepeat 1 BACKSPACE  &mt LCTRL TAB         &mo 3    &mo 3  &mt LEFT_SHIFT ENTER      &lt 2 SPACE
             >;
         };
 
