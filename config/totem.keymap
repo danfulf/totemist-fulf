@@ -182,10 +182,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp Q  &kp W                 &kp E                  &kp R                        &kp T    &kp Y  &kp U                         &kp I               &kp O                &kp P
-        &kp A  &HRMControlL LCTRL S  &HRMOptionL LALT D     &HRMCommandL LEFT_COMMAND F  &kp G    &kp H  &HRMCommandR RIGHT_COMMAND J  &HRMOptionR RALT K  &HRMControlR RALT L  &mt RGUI SEMICOLON
-&trans  &kp Z  &kp X                 &kp C                  &kp V                        &kp B    &kp N  &kp M                         &kp COMMA           &kp DOT              &kp FSLH            &trans
-                                     &LTRepeat 1 BACKSPACE  &mt LCTRL TAB                &mo 3    &mo 3  &mt LEFT_SHIFT ENTER          &lt 2 SPACE
+        &kp Q             &kp W                 &kp E                  &kp R                        &kp T    &kp Y  &kp U                         &kp I               &kp O                &kp P
+        &mt LEFT_SHIFT A  &HRMControlL LCTRL S  &HRMOptionL LALT D     &HRMCommandL LEFT_COMMAND F  &kp G    &kp H  &HRMCommandR RIGHT_COMMAND J  &HRMOptionR RALT K  &HRMControlR RALT L  &mt RGUI SEMICOLON
+&trans  &kp Z             &kp X                 &kp C                  &kp V                        &kp B    &kp N  &kp M                         &kp COMMA           &kp DOT              &kp FSLH            &trans
+                                                &LTRepeat 1 BACKSPACE  &mt LCTRL TAB                &mo 3    &mo 3  &mt LEFT_SHIFT ENTER          &lt 2 SPACE
             >;
         };
 
@@ -234,10 +234,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL  &kp N7        &kp N8        &kp N9        &trans     &trans  &kp HOME         &kp UP_ARROW    &kp END          &kp PRINTSCREEN
-        &kp DOT   &kp NUMBER_4  &kp N5        &kp N6        &trans     &trans  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_UP
-&trans  &kp N0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans  &kp LC(LS(TAB))  &kp INS         &kp LC(TAB)      &kp PAGE_DOWN    &trans
-                                &trans        &trans        &mo ADJ    &trans  &trans           &trans
+        &kp ESCAPE  &kp N7        &kp N8        &kp N9        &trans     &trans  &kp HOME         &kp UP_ARROW    &kp END          &kp PRINTSCREEN
+        &kp DOT     &kp NUMBER_4  &kp N5        &kp N6        &trans     &trans  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_UP
+&trans  &kp N0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans  &kp LC(LS(TAB))  &kp INS         &kp LC(TAB)      &kp PAGE_DOWN    &trans
+                                  &trans        &trans        &mo ADJ    &trans  &trans           &trans
             >;
         };
 
